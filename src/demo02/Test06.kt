@@ -7,4 +7,5 @@ fun main() {
     val list3 = list2.distinct()
     println(list3)
     println("我的git测试！")
+    println("qqqqqqq")
 }
