@@ -6,5 +6,4 @@ fun main() {
     println(list1.containsAll(list2))
     val list3 = list2.distinct()
     println(list3)
-    println("我的git测试！")
 }
