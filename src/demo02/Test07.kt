@@ -1,5 +1,11 @@
 package demo02
 
 fun main() {
-    println("git test")
+    var str = "lite_web"
+    when{
+        str.contains("web") -> println("web")
+        str.contains("app")||str.contains("native")-> println("app")
+        else -> println("service")
+
+    }
 }
