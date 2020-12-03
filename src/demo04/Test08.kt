@@ -2,10 +2,12 @@ package demo04
 
 
 fun main() {
-
-    println(Student.a)
-    println(Test08.ee)
-    println(Test08.ss)
+    var list = listOf<Long>(1,2)
+    val list1 = list.toMutableList()
+    list1.add(3)
+    list1.forEach{
+        println(it)
+    }
 
 }
 
